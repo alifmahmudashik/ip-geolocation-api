@@ -14,3 +14,49 @@ This is a simple Node.js-based IP Geolocation API that provides geographic locat
 
    ```bash
    git clone https://github.com/alifmahmudashik/ip-geolocation-api.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd ip-geolocation-api
+   
+3. Install the dependencies:
+
+   ```bash
+      npm install
+
+##Usage
+
+1. Start the server:
+
+   ```bash
+      node server.js
+   
+2. Make a request to the API (default port: 3000):
+
+   - To get the geolocation of your current IP:
+
+      ```bash
+      http://localhost:3000/geolocation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

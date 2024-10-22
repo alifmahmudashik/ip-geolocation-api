@@ -25,7 +25,7 @@ This is a simple Node.js-based IP Geolocation API that provides geographic locat
    ```bash
       npm install
 
-##Usage
+## Usage
 
 1. Start the server:
 
@@ -39,24 +39,22 @@ This is a simple Node.js-based IP Geolocation API that provides geographic locat
       ```bash
       http://localhost:3000/geolocation
 
+   - To get the geolocation of a specific IP address (e.g., 8.8.8.8):
+   
+      ```bash
+      http://localhost:3000/geolocation?ip=8.8.8.8
 
+   - Example Response
+      ```bash
+      {
+        "ip": "8.8.8.8",
+        "country": "US",
+        "region": "CA",
+        "city": "Mountain View",
+        "latitude": 37.386,
+        "longitude": -122.0838
+      }
+## License
 
+This project is licensed under the MIT License
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         

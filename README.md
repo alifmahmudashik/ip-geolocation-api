@@ -23,14 +23,14 @@ This is a simple Node.js-based IP Geolocation API that provides geographic locat
 3. Install the dependencies:
 
    ```bash
-      npm install
+   npm install
 
 ## Usage
 
 1. Start the server:
 
    ```bash
-      node server.js
+   node server.js
    
 2. Make a request to the API (default port: 3000):
 
@@ -54,6 +54,7 @@ This is a simple Node.js-based IP Geolocation API that provides geographic locat
         "latitude": 37.386,
         "longitude": -122.0838
       }
+
 ## License
 
 This project is licensed under the MIT License
